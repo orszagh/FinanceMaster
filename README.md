@@ -4,6 +4,14 @@ Súkromná Android aplikácia na účtenky: **otvoriť → odfotiť → uložen�
 
 Podrobný rozsah, dátové pravidlá a checklist: [docs/PHASE-1.md](docs/PHASE-1.md). Pokyny pre prácu na projekte: [AGENTS.md](AGENTS.md).
 
+## Stiahnutie APK
+
+[Stiahnuť FinanceMaster v0.1.0 – debug APK](https://github.com/orszagh/FinanceMaster/raw/refs/heads/apk-download/FinanceMaster-v0.1.0-debug.apk), približne 54 MB, Android 8.0 alebo novší.
+
+APK a jeho SHA-256 kontrolný súčet sú v samostatnej vetve [apk-download](https://github.com/orszagh/FinanceMaster/tree/apk-download). Ak priame stiahnutie nefunguje, otvor súbor APK v tejto vetve a zvoľ **Download raw file**. Pri súkromnom repozitári sa prihlás do svojho GitHub účtu. Na telefóne otvor stiahnutý súbor a podľa potreby povoľ inštaláciu z prehliadača.
+
+GitHub Release sa nepodarilo vytvoriť pre blokovaný prístup ku GitHub API z cloud prostredia; APK je preto dostupný cez túto vetvu.
+
 ## Technológie
 - **Kotlin + Coroutines:** jazyk aplikácie a asynchrónne IO bez blokovania UI.
 - **Jetpack Compose + Material 3:** deklaratívne obrazovky a štandardné Android komponenty.
